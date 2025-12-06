@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Национальные блюда мира</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+
+<header class="site-header">
+    Национальные блюда мира
+</header>
+
+<main>
+
+    <h1 class="select-text">Выберите блюдо</h1>
+
+    <!-- ФИЛЬТР -->
+    <div class="filter-box">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="uzbek">Узбекская</button>
+        <button class="filter-btn" data-filter="turkish">Турецкая</button>
+        <button class="filter-btn" data-filter="caucasus">Кавказская</button>
+        <button class="filter-btn" data-filter="slavic">Славянская</button>
+    </div>
+
+    <!-- КАРТОЧКИ БЛЮД -->
+    <div class="food-buttons">
+
+        <!-- Узбекская кухня -->
+        <a class="food-card" data-type="uzbek"
+           style="background-image: url('images/plov_uzbek.jpg');"
+           href="recipes/plov_uzbek.html">
+            <span>Узбекский Плов</span>
+        </a>
+
+        <a class="food-card" data-type="uzbek"
+           style="background-image: url('images/lagman_uzbek.jpg');"
+           href="recipes/lagman_uzbek.html">
+            <span>Узбекский Лагман</span>
+        </a>
+
+        <a class="food-card" data-type="uzbek"
+           style="background-image: url('images/manti.jpg');"
+           href="recipes/manti.html">
+            <span>Манты</span>
+        </a>
+
+        <!-- Турецкая кухня -->
+        <a class="food-card" data-type="turkish"
+           style="background-image: url('images/lagman_turkish.jpg');"
+           href="recipes/lahmanjun_turkish.html">
+            <span>Турецкий Лагман</span>
+        </a>
+
+        <a class="food-card" data-type="turkish" 
+           style="background-image: url('images/adana_kebab.jpg');" 
+           href="recipes/adana_kebab.html">
+            <span>Кебаб (Adana Kebab)</span>
+        </a>
+
+        <a class="food-card" data-type="turkish" 
+           style="background-image: url('images/menemen.jpg');" 
+           href="recipes/menemen.html">
+            <span>Менемен</span>
+        </a>
+
+
+        <!-- Кавказская кухня -->
+        <a class="food-card" data-type="caucasus"
+           style="background-image: url('images/dolma.jpg');"
+           href="recipes/dolma.html">
+            <span>Долма</span>
+        </a>
+
+        <a class="food-card" data-type="caucasus"
+           style="background-image: url('images/hinkali.jpg');"
+           href="recipes/hinkali.html">
+            <span>Хинкали</span>
+        </a>
+
+        <a class="food-card" data-type="caucasus"
+           style="background-image: url('images/shashlik.jpg');"
+           href="recipes/shashlik.html">
+            <span>Шашлык</span>
+        </a>
+
+        <a class="food-card" data-type="caucasus"
+           style="background-image: url('images/kharcho.jpg');"
+           href="recipes/kharcho.html">
+            <span>Харчо</span>
+        </a>
+
+        <a class="food-card" data-type="caucasus"
+           style="background-image: url('images/hinkal_lezgin.jpg');"
+           href="recipes/hinkal_lezgin.html">
+            <span>Лезгинский хинкал</span>
+        </a>
+
+        <a class="food-card" data-type="caucasus"
+           style="background-image: url('images/hinkal_kumyk.jpg');"
+           href="recipes/hinkal_kumyk.html">
+            <span>Кумыкский хинкал</span>
+        </a>
+
+        <a class="food-card" data-type="caucasus"
+           style="background-image: url('images/hinkal_avar.jpg');"
+           href="recipes/hinkal_avar.html">
+            <span>Аварский хинкал</span>
+        </a>
+
+        <a class="food-card" data-type="caucasus"
+           style="background-image: url('images/lula_kebab.jpg');"
+           href="recipes/lula_kebab.html">
+            <span>Люля-кебаб</span>
+        </a>
+        <!-- Пахлава -->
+        <a class="food-card" data-type="turkish caucasus"
+            style="background-image: url('images/pahlava.jpg');" 
+            href="recipes/pahlava.html">
+            <span>Пахлава</span>
+        </a>
+
+
+        <!-- Славянская кухня -->
+        <a class="food-card" data-type="slavic"
+           style="background-image: url('images/borsh.jpg');"
+           href="recipes/borsh.html">
+            <span>Борщ</span>
+        </a>
+
+        <a class="food-card" data-type="slavic"
+           style="background-image: url('images/vareniki.jpg');"
+           href="recipes/vareniki.html">
+            <span>Вареники</span>
+        </a>
+
+        <a class="food-card" data-type="slavic"
+           style="background-image: url('images/shchi.jpg');"
+           href="recipes/shchi.html">
+            <span>Щи</span>
+        </a>
+
+        <a class="food-card" data-type="slavic"
+           style="background-image: url('images/pelmeni.jpg');"
+           href="recipes/pelmeni.html">
+            <span>Пельмени</span>
+        </a>
+
+        <a class="food-card" data-type="slavic"
+           style="background-image: url('images/kulebyaka.jpg');"
+           href="recipes/kulebyaka.html">
+            <span>Кулебяка</span>
+        </a>
+
+        <a class="food-card" data-type="slavic"
+           style="background-image: url('images/okroshka.jpg');"
+           href="recipes/okroshka.html">
+            <span>Окрошка</span>
+        </a>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2025 Национальные блюда
+</footer>
+
+<script src="base.js"></script>
+</body>
+</html>
